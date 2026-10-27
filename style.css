@@ -2,7 +2,6 @@
 /* Estilos generales */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
     font-size: 14px;
     color: #222222;
 }
@@ -28,7 +27,7 @@ section {
     padding: 15px 8%;
 }
 
-/* Cabecera y menu */
+/* menu */
 header {
     background-color: #3a6bac;
     color: white;
@@ -47,7 +46,7 @@ nav a {
     margin: 0 auto;
     padding: 5px;
     color: white;
-    text-decoration: none;
+    
 }
 
 nav .activo {
@@ -56,9 +55,9 @@ nav .activo {
 }
 
 /* Imagen principal */
-.montana {
+.montaña {
     width: 100%;
-    height: 190px;
+    height: 200px;
 }
 
 /* Inicio */
@@ -92,7 +91,9 @@ nav .activo {
 #aficiones h3 {
     color: #9e1018;
     font-size: 14px;
-    margin: 0 ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    --margin-- o--
 }
 
 .caja-aficion p {
@@ -117,22 +118,30 @@ nav .activo {
     margin-bottom: 5px;
 }
 
-#enlaces a {
+#enlaces p {
     color: #176325;
     font-size: 14px;
-    text-decoration: none;
+    
 }
 
 #enlaces p {
     font-size: 12px;
 }
+.titulo {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
 
 /* Pie de pagina */
 footer {
-    background-color: #2b4a72;
+    background-color: #365174;
     color: white;
     text-align: center;
     padding: 8px;
     font-size: 14px;
 }
 
+body{
+    margin: 500px;
+}
